@@ -5,6 +5,9 @@ int getSquare(int num){
     return num*num;
 }
 
+
+//calculate factorial of number by function recursion
+
 int getFac(int num){
     if(num==1){
         return 1;
