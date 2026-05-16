@@ -7,8 +7,9 @@ int main(){
 
     int* ptr = &x;
 
-    std::cout<<"By ptr : = "<< ptr <<std::endl; //
-    std::cout<<"By *ptr: = "<<*ptr <<std::endl;
-
+    std::cout<<"By ptr : = "<< ptr <<std::endl; //0x61ff08
+    std::cout<<"By *ptr: = "<<*ptr <<std::endl; //5
+    *ptr = 10;
+    std::cout<<"(*ptr =10 ) After modify By *ptr: = "<<*ptr <<std::endl;
     return 0;
 }
