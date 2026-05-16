@@ -11,6 +11,5 @@ int main (){
 
     //function initialization
     greet(); 
-    
-    return 0;
+
 }
